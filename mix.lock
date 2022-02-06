@@ -1,0 +1,7 @@
+%{
+  "ex_unit_notifier": {:hex, :ex_unit_notifier, "1.2.0", "73ced2ecee0f2da0705e372c21ce61e4e5d927ddb797f73928e52818b9cc1754", [:mix], [], "hexpm", "f38044c9d50de68ad7f0aec4d781a10d9f1c92c62b36bf0227ec0aaa96aee332"},
+  "file_system": {:hex, :file_system, "0.2.10", "fb082005a9cd1711c05b5248710f8826b02d7d1784e7c3451f9c1231d4fc162d", [:mix], [], "hexpm", "41195edbfb562a593726eda3b3e8b103a309b733ad25f3d642ba49696bf715dc"},
+  "mix_test_watch": {:hex, :mix_test_watch, "1.1.0", "330bb91c8ed271fe408c42d07e0773340a7938d8a0d281d57a14243eae9dc8c3", [:mix], [{:file_system, "~> 0.2.1 or ~> 0.3", [hex: :file_system, repo: "hexpm", optional: false]}], "hexpm", "52b6b1c476cbb70fd899ca5394506482f12e5f6b0d6acff9df95c7f1e0812ec3"},
+  "pollution": {:hex, :pollution, "0.9.2", "3f67542631071c99f807d2a8f9da799c07cd983c902f5357b9e1569c20a26e76", [:mix], [], "hexpm", "6399fd8ffd97dcc3d9d277f60542a234d644d7bcc0d48c8fda93d6be4801bac2"},
+  "quixir": {:hex, :quixir, "0.9.3", "f01c37386b9e1d0526f01a8734a6d7884af294a0ec360f05c24c7171d74632bd", [:mix], [{:pollution, "~> 0.9.2", [hex: :pollution, repo: "hexpm", optional: false]}], "hexpm", "4f3a1fe7c82b767d935b3f7b94cf34b91ef78bb487ef256b303d77417fc7d589"},
+}
