@@ -6,6 +6,7 @@ defmodule DemoQuixir.MixProject do
       app: :demo_quixir,
       version: "0.1.0",
       elixir: "~> 1.12",
+      escript: [main_module: Diamond.CLI],
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
